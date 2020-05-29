@@ -1,0 +1,11 @@
+
+z
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "conta".(„ïâ8éÇÃ·¤.
+M
+java:S1128"0Remove this unused import 'javax.ejb.Stateless'.(ä¬8äÀ¸™¥.
+{
+java:S1488""^Immediately return this expression instead of assigning it to the temporary variable "result".(¯”„8éÇÃ·¤.
+F
+java:S1948"$Make "em" transient or serializable.(‘æ¿Úúÿÿÿÿ8íŠö˜¥.
+
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "lista".(ğ‚è”ûÿÿÿÿ8éÇÃ·¤.

@@ -1,0 +1,9 @@
+
+M
+java:S2160"+Override the "equals" method in this class.(ã¯¦Åÿÿÿÿÿ8Òè„™¥.
+E
+java:S1948"(Make "contas" transient or serializable.(éëè¬8ìÌ›¥.
+G
+java:S1948"*Make "contatos" transient or serializable.(‹Òº8ìÌ›¥.
+S
+java:S1128"6Remove this unused import 'javax.persistence.OrderBy'.(Õ¤‚¨8Á™Šï¥.

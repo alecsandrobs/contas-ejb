@@ -1,0 +1,37 @@
+[
+    {
+        "banco": "Nu Pagamentos",
+        "agencia": "1",
+        "numero": "1234567"
+    },
+    {
+        "banco": "Banco Inter",
+        "agencia": "1",
+        "numero": "7654321"
+    },
+    {
+        "banco": "Itaú",
+        "agencia": "2662",
+        "numero": "12647"
+    },
+    {
+        "banco": "Bradesco",
+        "agencia": "1677",
+        "numero": "45679"
+    },
+    {
+        "banco": "Santander",
+        "agencia": "6543",
+        "numero": "165450"
+    },
+    {
+        "banco": "Banco do Brasil",
+        "agencia": "5460",
+        "numero": "65404"
+    },
+    {
+        "banco": "Caixa Econômica Federal",
+        "agencia": "6506",
+        "numero": "65460"
+    }
+]

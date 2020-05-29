@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "José da Silva de Alencar",
+        "documento": "12345678909",
+        "telefone": "57995876341",
+        "email": "josesa@email.com"
+    },
+    {
+        "nome": "Maria Souza de Alencar",
+        "telefone": "23977931594",
+        "email": "mariasa@email.com"
+    },
+    {
+        "nome": "Maurício Aquino Rego",
+        "telefone": "46931782597"
+    },
+    {
+        "nome": "Farela Madeira Rego",
+        "documento": "98765432100",
+        "telefone": "10932594621",
+        "email": "rego.farela@regomail.com.br"
+    },
+    {
+        "nome": "Rui Barba Rosa",
+        "documento": "41378847698253",
+        "telefone": "60991734682",
+        "email": "rbarbarosa@barbamail.com.br"
+    },
+    {
+        "nome": "Joana Flores Rosa",
+        "email": "hfloresrosa@barbamail.com.br"
+    },
+    {
+        "nome": "Amim Amou Amado",
+        "documento": "89512792061900"
+    }
+]

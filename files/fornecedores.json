@@ -1,0 +1,87 @@
+[
+    {
+        "nome": "Madereira Madeira LTDA",
+        "documento": "26315520658700",
+        "contas": [
+            {
+                "id": 4
+            },
+            {
+                "id": 3
+            },
+            {
+                "id": 2
+            }
+        ],
+        "contatos": [
+            {
+                "id": 2
+            },
+            {
+                "id": 1
+            }
+        ]
+    },
+    {
+        "nome": "Olaria Tijolada ME",
+        "documento": "42305910346185",
+        "contas": [
+            {
+                "id": 6
+            }
+        ],
+        "contatos": [
+            {
+                "id": 6
+            },
+            {
+                "id": 5
+            }
+        ]
+    },
+    {
+        "nome": "Materiais de construção Construtivo EPP",
+        "documento": "65468294543502",
+        "contatos": [
+            {
+                "id": 7
+            }
+        ]
+    },
+    {
+        "nome": "Empreiteira Dia-a-dia LTDA",
+        "documento": "87613260861612",
+        "contas": [
+            {
+                "id": 1
+            },
+            {
+                "id": 5
+            }
+        ]
+    },
+    {
+        "nome": "Revestimentos sem Ânimos EPP",
+        "documento": "25216885251607",
+        "contas": [
+            {
+                "id": 7
+            }
+        ]
+    },
+    {
+        "nome": "Ferragens Ferrado LTDA ME",
+        "documento": "51671360140837",
+        "contatos": [
+            {
+                "id": 3
+            },
+            {
+                "id": 4
+            }
+        ]
+    },
+    {
+        "nome": "Caixa Econômica Federal"
+    }
+]

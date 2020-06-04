@@ -19,8 +19,6 @@ Nsrc/main/java/com/stolk/alecsandro/obra/exception/BusinessExceptionMapper.java
 Psrc/main/java/com/stolk/alecsandro/obra/exception/ConstraintExceptionMapper.java,b/3/b3bc6231e346dc43c9cccf38733aac6660a2d2a0
 z
 Jsrc/main/java/com/stolk/alecsandro/obra/interceptor/LoggerInterceptor.java,b/9/b9d7334429000a837399d2f6ba2bfbeca33a6c10
-i
-9src/main/java/com/stolk/alecsandro/obra/mdb/EmailMdb.java,d/9/d978a8b6591cdbff05f1b8df6630efa99323f567
 J
 src/main/webapp/index.html,1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b
 n
@@ -47,8 +45,6 @@ q
 Asrc/main/java/com/stolk/alecsandro/obra/banco/AgendamentoDao.java,7/5/75f864c3998a67eb1c0d167784f8a3bd521a1343
 x
 Hsrc/main/java/com/stolk/alecsandro/obra/recurso/AgendamentoResource.java,8/6/86048b4a9beab0fd69073a56fefbe5d6227efd94
-y
-Isrc/main/java/com/stolk/alecsandro/obra/business/AgendamentoBusiness.java,6/f/6fbff5a85832b9d8977d5016cfea5d0c7792da75
 s
 Csrc/main/java/com/stolk/alecsandro/obra/timer/AgendamentoTimer.java,6/2/627293c45a80750e983188e0a1f06e71be165cd1
 r
@@ -89,3 +85,29 @@ Fsrc/main/java/com/stolk/alecsandro/obra/service/FornecedorService.java,d/0/d0c
 Msrc/main/java/com/stolk/alecsandro/obra/repository/AgendamentoRepository.java,8/b/8b946775c656407d96ed3432048589b49feb7dd0
 w
 Gsrc/main/java/com/stolk/alecsandro/obra/service/AgendamentoService.java,c/b/cbb2fb2cd8d5c33da772d162b50231502146e72a
+r
+Bsrc/main/java/com/stolk/alecsandro/obra/service/TarefaService.java,e/f/ef24a73c21605e6f769285c94d95363d42248cad
+x
+Hsrc/main/java/com/stolk/alecsandro/obra/repository/TarefaRepository.java,1/4/142a5ca4d323e12cc2136573eeab9f6b2e338097
+s
+Csrc/main/java/com/stolk/alecsandro/obra/recurso/TarefaResource.java,e/3/e3f6a315d1dae1aadc0c4a85735c103c5739015b
+l
+<src/main/java/com/stolk/alecsandro/obra/banco/TarefaDao.java,c/f/cfec043bb1829c9232829e84029988a5c6c03fa9
+k
+;src/main/java/com/stolk/alecsandro/obra/recurso/Tarefa.java,4/b/4b27cf627bc7c4790751a5faa8b7a1abc7cecd94
+k
+;src/main/java/com/stolk/alecsandro/obra/modelo/Usuario.java,4/a/4a111e71d8d4d0fa20943e4d741270f06cb37c84
+n
+>src/main/java/com/stolk/alecsandro/obra/modelo/SystemRole.java,6/f/6fd53aa0866c165fdf277f91e2bc533968a0546a
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+s
+Csrc/main/java/com/stolk/alecsandro/obra/security/PassGenerator.java,8/6/86d283e5a5316c8e85b9a1a5b853cfdff078b7b5
+v
+Fsrc/main/java/com/stolk/alecsandro/obra/mdb/LancamentosNaoPagoMdb.java,1/a/1a70e172c74a9b4a8206dc341673a02f23b0f9f6
+t
+Dsrc/main/java/com/stolk/alecsandro/obra/mdb/TarefasPendentesMdb.java,0/4/04b161420c1c3468ec63662cbb78241774ac27b6
+i
+9src/main/java/com/stolk/alecsandro/obra/mdb/EmailMdb.java,d/9/d978a8b6591cdbff05f1b8df6630efa99323f567
+z
+Jsrc/main/java/com/stolk/alecsandro/obra/business/AgendamentolBusiness.java,6/1/611a311da4e62d24a08513abc95636d7a57a29f9

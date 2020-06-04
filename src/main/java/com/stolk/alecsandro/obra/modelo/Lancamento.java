@@ -9,6 +9,9 @@ import javax.persistence.Entity;
 import javax.persistence.Enumerated;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -16,6 +19,8 @@ import static javax.persistence.EnumType.STRING;
 
 @Entity
 @Table(name = "lancamentos")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Lancamento extends EntidadeId implements Serializable {
 
     @JsonDeserialize(using = LocalDateDeserializer.class)

@@ -1,5 +1,4 @@
 
-`
-java:S1854)">Remove this useless assignment to local variable "lancamento".(›ËþÀùÿÿÿÿ8ÝÖ¶–¥.
 r
-java:S1192T"PDefine a constant instead of duplicating this literal "/lancamentos/%s" 3 times.(Ë¤¤õüÿÿÿÿ8ó§÷—¤.
+java:S1192m"PDefine a constant instead of duplicating this literal "/lancamentos/%s" 3 times.(Ë¤¤õüÿÿÿÿ8ó§÷—¤.
+]	java:S125f"<This block of commented-out lines of code should be removed.(¹’Ûýÿÿÿÿ8ŽãÌ”§.

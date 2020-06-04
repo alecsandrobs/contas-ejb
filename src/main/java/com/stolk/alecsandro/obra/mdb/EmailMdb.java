@@ -1,6 +1,6 @@
 package com.stolk.alecsandro.obra.mdb;
 
-import com.stolk.alecsandro.obra.business.AgendamentoBusiness;
+import com.stolk.alecsandro.obra.business.AgendamentolBusiness;
 import com.stolk.alecsandro.obra.interceptor.Logger;
 import com.stolk.alecsandro.obra.modelo.Agendamento;
 
@@ -18,14 +18,15 @@ import javax.jms.MessageListener;
                 propertyValue = "javax.jms.Queue")
 })
 public class EmailMdb implements MessageListener {
+
     @Inject
-    private AgendamentoBusiness agendamentoBusiness;
+    private AgendamentolBusiness business;
 
     @Override
     public void onMessage(javax.jms.Message message) {
         try {
             Agendamento agendamento = message.getBody(Agendamento.class);
-            agendamentoBusiness.enviar(agendamento);
+            business.enviar(agendamento);
         } catch (JMSException e) {
             throw new RuntimeException(e);
         }

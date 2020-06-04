@@ -17,6 +17,14 @@ public class LancamentoRepository {
         return dao.buscar();
     }
 
+    public List<Lancamento> buscarNaoEfetivado() {
+        return dao.buscar(false);
+    }
+
+    public List<Lancamento> buscarEfetivado() {
+        return dao.buscar(true);
+    }
+
     public Lancamento buscar(Long id) {
         return dao.buscar(id);
     }

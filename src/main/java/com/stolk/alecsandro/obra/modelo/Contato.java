@@ -4,10 +4,15 @@ package com.stolk.alecsandro.obra.modelo;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Objects;
 
 @Entity
 @Table(name = "contatos")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Contato extends EntidadeId {
 
     @NotBlank(message = "{nome.vazio}")

@@ -14,11 +14,12 @@ import java.net.URI;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+import static javax.ws.rs.core.MediaType.APPLICATION_XML;
 
 @Stateless
 @Path("agendamentos")
-@Consumes(APPLICATION_JSON)
-@Produces(APPLICATION_JSON)
+@Consumes({APPLICATION_JSON, APPLICATION_XML})
+@Produces({APPLICATION_JSON, APPLICATION_XML})
 public class AgendamentoResource implements Serializable {
 
     @Inject

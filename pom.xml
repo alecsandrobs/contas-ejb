@@ -62,7 +62,16 @@
             <artifactId>jackson-module-jaxb-annotations</artifactId>
             <version>2.10.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxb-provider</artifactId>
+            <version>3.9.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.as</groupId>
+            <artifactId>jboss-as-security</artifactId>
+            <version>7.2.0.Final</version>
+        </dependency>
 
     </dependencies>
 

@@ -1,5 +1,6 @@
 package com.stolk.alecsandro.obra.recurso;
 
+import com.stolk.alecsandro.obra.infra.MailSender;
 import com.stolk.alecsandro.obra.modelo.Lancamento;
 import com.stolk.alecsandro.obra.repository.LancamentoRepository;
 import com.stolk.alecsandro.obra.service.LancamentoService;
@@ -15,12 +16,13 @@ import java.util.List;
 import static com.stolk.alecsandro.obra.modelo.Lancamento.TipoLancamento.PAGAMENTO;
 import static com.stolk.alecsandro.obra.modelo.Lancamento.TipoLancamento.RECEBIMENTO;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+import static javax.ws.rs.core.MediaType.APPLICATION_XML;
 import static javax.ws.rs.core.Response.Status.CREATED;
 
 @Stateless
 @Path("lancamentos")
-@Consumes(APPLICATION_JSON)
-@Produces(APPLICATION_JSON)
+@Consumes({APPLICATION_JSON, APPLICATION_XML})
+@Produces({APPLICATION_JSON, APPLICATION_XML})
 public class LancamentoResource implements Serializable {
 
     @Inject
@@ -29,6 +31,9 @@ public class LancamentoResource implements Serializable {
     @Inject
     private LancamentoService service;
 
+    @Inject
+    private MailSender sender;
+
     @GET
     public Response get() {
         List<Lancamento> lancamentos = repository.buscar();
@@ -36,10 +41,23 @@ public class LancamentoResource implements Serializable {
     }
 
     @GET
+    @Path("nao-efetivado")
+    public Response getNaoEfetivado() {
+        List<Lancamento> lancamentos = repository.buscarNaoEfetivado();
+        return Response.ok(lancamentos).build();
+    }
+
+    @GET
+    @Path("efetivado")
+    public Response getEfetivado() {
+        List<Lancamento> lancamentos = repository.buscarEfetivado();
+        return Response.ok(lancamentos).build();
+    }
+
+    @GET
     @Path("{id}")
     public Response get(@PathParam("id") Long id) {
-        Lancamento lancamento = new Lancamento();
-        lancamento = repository.buscar(id);
+        Lancamento lancamento = repository.buscar(id);
         return Response.ok(lancamento).build();
     }
 
@@ -81,6 +99,13 @@ public class LancamentoResource implements Serializable {
     @POST
     public Response post(Lancamento lancamento) {
         service.cadastrar(lancamento);
+//        String valor = Util.emReal(lancamento.getValor());
+//        String fornecedor = lancamento.getFornecedor().getNome();
+//        String assunto = String.format("Compra realizada em %s no valor de %s", fornecedor, valor);
+//        String texto = "| Data       | Fornecedor                                | Valor           | Observações                                                                                           | Pago em    |\n";
+//        texto += String.format("| %s | %s | %s | %s | %s |", Util.dataTxtBr(lancamento.getData()), Util.completaEsquerda(fornecedor, 40), Util.completaDireita(Util.emReal(lancamento.getValor())), Util.completaEsquerda(lancamento.getObservacoes(), 100), lancamento.getPagamento() != null ? Util.dataTxtBr(lancamento.getPagamento()) : "--/--/----");
+//        System.out.println(texto);
+//        sender.send("alecsandro.stolk@gmail.com", "talitadanielskipereira@gmail.com", assunto, texto);
         return Response.created(URI.create(String.format("/lancamentos/%s", lancamento.getId()))).build();
     }
 

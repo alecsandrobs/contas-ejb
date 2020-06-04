@@ -4,10 +4,7 @@ import com.stolk.alecsandro.obra.modelo.Lancamento;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Root;
+import javax.persistence.criteria.*;
 import java.io.Serializable;
 import java.util.List;
 
@@ -23,10 +20,15 @@ public class LancamentoDao implements Serializable {
         return lista;
     }
 
-    /*public List<Lancamento> buscar() {
-        Query query = em.createQuery("select l from Lancamento l", Lancamento.class);
-        return query.getResultList();
-    }*/
+    public List<Lancamento> buscar(boolean efetivado) {
+        CriteriaBuilder builder = em.getCriteriaBuilder();
+        CriteriaQuery<Lancamento> query = builder.createQuery(Lancamento.class);
+        Root<Lancamento> colunas = query.from(Lancamento.class);
+        Path<Object> pagamento = colunas.get("pagamento");
+        Expression filtroEfetivado = efetivado ? builder.isNotNull(pagamento) : builder.isNull(pagamento);
+        List<Lancamento> lancamentos = em.createQuery(query.where(filtroEfetivado)).getResultList();
+        return lancamentos;
+    }
 
     public Lancamento buscar(Long id) {
         Lancamento lancamento = em.find(Lancamento.class, id);

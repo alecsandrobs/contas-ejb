@@ -3,6 +3,7 @@ package com.stolk.alecsandro.obra.recurso;
 import com.stolk.alecsandro.obra.modelo.Conta;
 import com.stolk.alecsandro.obra.repository.ContaRepository;
 import com.stolk.alecsandro.obra.service.ContaService;
+import org.jboss.resteasy.annotations.providers.jaxb.Wrapped;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -13,12 +14,13 @@ import java.net.URI;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+import static javax.ws.rs.core.MediaType.APPLICATION_XML;
 import static javax.ws.rs.core.Response.Status.CREATED;
 
 @Stateless
 @Path("contas")
-@Consumes(APPLICATION_JSON)
-@Produces(APPLICATION_JSON)
+@Consumes({APPLICATION_JSON, APPLICATION_XML})
+@Produces({APPLICATION_JSON, APPLICATION_XML})
 public class ContaResource implements Serializable {
 
     private Conta conta = new Conta();
@@ -30,6 +32,7 @@ public class ContaResource implements Serializable {
     private ContaService service;
 
     @GET
+    @Wrapped(element = "contas")
     public Response get() {
         List<Conta> contas = repository.buscar();
         return Response.ok(contas).build();

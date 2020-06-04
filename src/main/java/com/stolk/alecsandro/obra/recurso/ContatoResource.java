@@ -13,12 +13,13 @@ import java.net.URI;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+import static javax.ws.rs.core.MediaType.APPLICATION_XML;
 import static javax.ws.rs.core.Response.Status.CREATED;
 
 @Stateless
 @Path("contatos")
-@Consumes(APPLICATION_JSON)
-@Produces(APPLICATION_JSON)
+@Consumes({APPLICATION_JSON, APPLICATION_XML})
+@Produces({APPLICATION_JSON, APPLICATION_XML})
 public class ContatoResource implements Serializable {
 
     @Inject

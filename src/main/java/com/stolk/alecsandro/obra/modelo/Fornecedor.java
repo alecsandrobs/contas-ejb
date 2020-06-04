@@ -7,12 +7,17 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "fornecedores")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Fornecedor extends EntidadeId implements Serializable {
 
     @NotBlank(message = "O nome deve ser infromado")

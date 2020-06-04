@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <jboss-web>
     <context-root>/</context-root>
+
+    <security-domain>database-login</security-domain>
 </jboss-web>

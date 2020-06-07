@@ -26,14 +26,6 @@ public class AgendamentolBusiness {
     private static final String TAREFAS_PENDENTES = "Tarefas pendentes";
     private static final String LANCAMENTOS_PENDENTES = "Lançamentos pendentes";
 
-    /*public void enviarTarefasFazer(String mensagem) {
-        enviar(TAREFAS_PENDENTES, mensagem);
-    }
-
-    public void enviarLancamentosNaoPago(String mensagem) {
-        enviar(LANCAMENTOS_PENDENTES, mensagem);
-    }*/
-
     public void enviar(Agendamento agendamento) {
         MimeMessage message = new MimeMessage(sessaoEmail);
         try {

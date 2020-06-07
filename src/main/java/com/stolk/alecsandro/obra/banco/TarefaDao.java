@@ -1,6 +1,6 @@
 package com.stolk.alecsandro.obra.banco;
 
-import com.stolk.alecsandro.obra.recurso.Tarefa;
+import com.stolk.alecsandro.obra.modelo.Tarefa;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

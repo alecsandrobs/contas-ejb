@@ -1,13 +1,13 @@
 
 `
-java:S1854h">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8»Ğ”š¥.
+java:S1854r">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8ÂÊš¥.
 `
-java:S1854q">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8‚Œ–š¥.
-`
-java:S1854_">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8­¡“š¥.
-`
-java:S1854)">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8ÂÊš¥.
+java:S1854{">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8à÷–š¥.
 m
-java:S11928"QDefine a constant instead of duplicating this literal "/fornecedores/%s" 3 times.(›ŒÃq8áÆõ—¤.
+java:S11929"QDefine a constant instead of duplicating this literal "/fornecedores/%s" 3 times.(›ŒÃq8áÆõ—¤.
 `
-java:S1854z">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8à÷–š¥.
+java:S1854*">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8»Ğ”š¥.
+`
+java:S1854`">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8‚Œ–š¥.
+`
+java:S1854i">Remove this useless assignment to local variable "fornecedor".(øíÏûÿÿÿÿ8­¡“š¥.

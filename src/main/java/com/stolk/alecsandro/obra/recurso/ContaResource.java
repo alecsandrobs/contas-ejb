@@ -32,7 +32,6 @@ public class ContaResource implements Serializable {
     private ContaService service;
 
     @GET
-    @Wrapped(element = "contas")
     public Response get() {
         List<Conta> contas = repository.buscar();
         return Response.ok(contas).build();

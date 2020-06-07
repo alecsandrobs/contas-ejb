@@ -1,10 +1,5 @@
 
 s
-java:S3457="Q%n should be used in place of \n to produce the platform-specific line separator.(úÜÅÙûÿÿÿÿ8–¹·“§.
+java:S34570"Q%n should be used in place of \n to produce the platform-specific line separator.(úÜÅÙûÿÿÿÿ8–¹·“§.
 >
-java:S1643K"Use a StringBuilder instead.(ïóôŞøÿÿÿÿ8†¬¼“§.
-X	java:S125("<This block of commented-out lines of code should be removed.(‰‡«î8–¹·“§.
-s
-java:S3457K"Q%n should be used in place of \n to produce the platform-specific line separator.(ïóôŞøÿÿÿÿ8–¹·“§.
->
-java:S1643="Use a StringBuilder instead.(úÜÅÙûÿÿÿÿ8–¹·“§.
+java:S16430"Use a StringBuilder instead.(úÜÅÙûÿÿÿÿ8–¹·“§.

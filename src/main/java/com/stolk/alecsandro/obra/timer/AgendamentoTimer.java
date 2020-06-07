@@ -2,7 +2,7 @@ package com.stolk.alecsandro.obra.timer;
 
 import com.stolk.alecsandro.obra.modelo.Agendamento;
 import com.stolk.alecsandro.obra.modelo.Lancamento;
-import com.stolk.alecsandro.obra.recurso.Tarefa;
+import com.stolk.alecsandro.obra.modelo.Tarefa;
 import com.stolk.alecsandro.obra.repository.LancamentoRepository;
 import com.stolk.alecsandro.obra.repository.TarefaRepository;
 import com.stolk.alecsandro.obra.util.Util;
@@ -36,20 +36,7 @@ public class AgendamentoTimer {
 
     private Agendamento agendamento = new Agendamento();
 
-    /*@Schedule(hour = "15", minute = "0")
-    public void enviarEmailLancamentosNaoPago() {
-        String message = "| Data       | Fornecedor                               | Valor         |";
-        List<Lancamento> lancamentos = lancamentoRepository.buscarNaoEfetivado();
-        for (Lancamento lancamento : lancamentos) {
-            String data = Util.dataTxtBr(lancamento.getData());
-            String fornecedor = Util.completaEsquerda(lancamento.getFornecedor().getNome(), 40);
-            String valor = Util.completaDireita(Util.emReal(lancamento.getValor()), 13);
-            message += String.format("\n| %s | %s  | %s |", data, fornecedor, valor);
-        }
-        context.createProducer().send(queue, message);
-    }*/
-
-    @Schedule(hour = "22", minute = "25")
+    @Schedule(hour = "10", minute = "35")
     public void enviarEmailLancamentosNaoPago() {
         String conteudo = "<table><thead><tr><th>Data</th><th>Fornecedor</th><th>Tipo</th><th>Valor</th></tr></thead><tbody>";
         List<Lancamento> lancamentos = lancamentoRepository.buscarNaoEfetivado();
@@ -67,7 +54,7 @@ public class AgendamentoTimer {
         context.createProducer().send(queue, this.agendamento);
     }
 
-    @Schedule(hour = "22", minute = "30")
+    @Schedule(hour = "10", minute = "37")
     public void enviarTarefasFazer() {
         String conteudo = "<ol>";
         List<Tarefa> tarefas = tarefaRepository.buscarNaoFeitos();

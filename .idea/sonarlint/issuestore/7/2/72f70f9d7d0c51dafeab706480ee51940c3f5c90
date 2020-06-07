@@ -1,20 +1,20 @@
 
 „
 java:S1488""bImmediately return this expression instead of assigning it to the temporary variable "lancamento".(û„‘®ûÿÿÿÿ8Õ«–¥.
+
+java:S14889"]Immediately return this expression instead of assigning it to the temporary variable "valor".(©Şüšùÿÿÿÿ8Õ«–¥.
+€
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "lancamentos".(ë×Ó8÷ªÇ”§.
+L
+java:S3740"/Provide the parametrized type for this generic.(›Œ’µ8÷ªÇ”§.
 Q
 java:S37403"/Provide the parametrized type for this generic.(Åù»Üúÿÿÿÿ8Õ«–¥.
 L
-java:S3740"/Provide the parametrized type for this generic.(›Œ’µ8÷ªÇ”§.
-
-java:S14889"]Immediately return this expression instead of assigning it to the temporary variable "valor".(©Şüšùÿÿÿÿ8Õ«–¥.
-L
 java:S37402"/Provide the parametrized type for this generic.(Èûò«8Õ«–¥.
 z
-java:S1488V"]Immediately return this expression instead of assigning it to the temporary variable "lista".(”â«8š©§–¥.
-€
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "lancamentos".(ë×Ó8÷ªÇ”§.
-z
 java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "lista".(ëÆ‚å8êäÔï¥.
+z
+java:S1488V"]Immediately return this expression instead of assigning it to the temporary variable "lista".(”â«8š©§–¥.
 F
 java:S1948"$Make "em" transient or serializable.(‘æ¿Úúÿÿÿÿ8±­–¥.
 {

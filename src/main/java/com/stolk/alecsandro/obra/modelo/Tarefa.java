@@ -1,6 +1,4 @@
-package com.stolk.alecsandro.obra.recurso;
-
-import com.stolk.alecsandro.obra.modelo.EntidadeId;
+package com.stolk.alecsandro.obra.modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

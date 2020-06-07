@@ -1,7 +1,7 @@
 package com.stolk.alecsandro.obra.service;
 
 import com.stolk.alecsandro.obra.banco.TarefaDao;
-import com.stolk.alecsandro.obra.recurso.Tarefa;
+import com.stolk.alecsandro.obra.modelo.Tarefa;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;

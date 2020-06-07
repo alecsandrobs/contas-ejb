@@ -1,5 +1,6 @@
 package com.stolk.alecsandro.obra.recurso;
 
+import com.stolk.alecsandro.obra.modelo.Tarefa;
 import com.stolk.alecsandro.obra.repository.TarefaRepository;
 import com.stolk.alecsandro.obra.service.TarefaService;
 

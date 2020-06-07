@@ -94,8 +94,6 @@ Csrc/main/java/com/stolk/alecsandro/obra/recurso/TarefaResource.java,e/3/e3f6a3
 l
 <src/main/java/com/stolk/alecsandro/obra/banco/TarefaDao.java,c/f/cfec043bb1829c9232829e84029988a5c6c03fa9
 k
-;src/main/java/com/stolk/alecsandro/obra/recurso/Tarefa.java,4/b/4b27cf627bc7c4790751a5faa8b7a1abc7cecd94
-k
 ;src/main/java/com/stolk/alecsandro/obra/modelo/Usuario.java,4/a/4a111e71d8d4d0fa20943e4d741270f06cb37c84
 n
 >src/main/java/com/stolk/alecsandro/obra/modelo/SystemRole.java,6/f/6fd53aa0866c165fdf277f91e2bc533968a0546a
@@ -111,3 +109,9 @@ i
 9src/main/java/com/stolk/alecsandro/obra/mdb/EmailMdb.java,d/9/d978a8b6591cdbff05f1b8df6630efa99323f567
 z
 Jsrc/main/java/com/stolk/alecsandro/obra/business/AgendamentolBusiness.java,6/1/611a311da4e62d24a08513abc95636d7a57a29f9
+m
+=src/main/java/com/stolk/alecsandro/obra/infra/MailSender.java,a/e/ae15514d11573663adf0920ae6377c4a4df8c9c0
+`
+0src/main/resources/ValidationMessages.properties,9/d/9dff479cf27b73bc29f4c927786be003ec65ecbc
+j
+:src/main/java/com/stolk/alecsandro/obra/modelo/Tarefa.java,e/2/e24880535348c3915a83243360f60fb482edbc7e

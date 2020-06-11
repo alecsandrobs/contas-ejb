@@ -1,2 +1,2 @@
-# contas-ejb
-Contas com EJB
+# obra-contas
+Contas da obra

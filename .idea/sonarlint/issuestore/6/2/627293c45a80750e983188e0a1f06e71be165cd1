@@ -1,5 +1,9 @@
 
-s
-java:S34570"Q%n should be used in place of \n to produce the platform-specific line separator.(ъ№≈ўы€€€€8ЦєЈУІ.
 >
-java:S16430"Use a StringBuilder instead.(ъ№≈ўы€€€€8ЦєЈУІ.
+java:S16430"Use a StringBuilder instead.(ъ№≈ўы€€€€8мл—ш®.
+>
+java:S1643>"Use a StringBuilder instead.(пуфёш€€€€8мл—ш®.
+s
+java:S34570"Q%n should be used in place of \n to produce the platform-specific line separator.(ъ№≈ўы€€€€8мл—ш®.
+s
+java:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(пуфёш€€€€8мл—ш®.

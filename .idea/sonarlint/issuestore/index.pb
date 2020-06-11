@@ -115,3 +115,5 @@ m
 0src/main/resources/ValidationMessages.properties,9/d/9dff479cf27b73bc29f4c927786be003ec65ecbc
 j
 :src/main/java/com/stolk/alecsandro/obra/modelo/Tarefa.java,e/2/e24880535348c3915a83243360f60fb482edbc7e
+f
+6src/main/java/com/stolk/alecsandro/obra/banco/Dao.java,a/e/aeca1e596ae7990960c7741055e3a04edecb6a09

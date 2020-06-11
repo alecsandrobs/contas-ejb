@@ -3,3 +3,7 @@ X
 java:S1854(";Remove this useless assignment to local variable "contato".(ÓëÜ³8ô‰ó™¥.
 o
 java:S11927"MDefine a constant instead of duplicating this literal "/contatos/%s" 3 times.(¦àÖ³şÿÿÿÿ8çÚó—¤.
+I
+java:S1948",Make "repository" transient or serializable.(İµø–8«£× ª.
+F
+java:S1948")Make "service" transient or serializable.(ÿ×Ö¿8«£× ª.

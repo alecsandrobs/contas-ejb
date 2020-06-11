@@ -1,15 +1,11 @@
 
-u
-java:S14882"_Immediately return this expression instead of assigning it to the temporary variable "contato".(œäÎø
-M
-java:S1128"0Remove this unused import 'javax.ejb.Stateless'.(Žžä¬8ÇÖ¸™¥.
-F
-java:S1948"$Make "em" transient or serializable.(‘æ¿Úúÿÿÿÿ8³­ö˜¥.
 x
 java:S1488-"]Immediately return this expression instead of assigning it to the temporary variable "lista".(Šÿº´ÿÿÿÿÿ
-x
-java:S1488D"]Immediately return this expression instead of assigning it to the temporary variable "lista".(Šÿº´ÿÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'javax.ejb.Stateless'.(Žžä¬8ÇÖ¸™¥.
+u
+java:S14882"_Immediately return this expression instead of assigning it to the temporary variable "contato".(œäÎø
 t
 java:S1488:"^Immediately return this expression instead of assigning it to the temporary variable "result".(¯”ž„
-E
-java:S3740B"/Provide the parametrized type for this generic.(Ú¶½ò
+x
+java:S1488D"]Immediately return this expression instead of assigning it to the temporary variable "lista".(Šÿº´ÿÿÿÿÿ

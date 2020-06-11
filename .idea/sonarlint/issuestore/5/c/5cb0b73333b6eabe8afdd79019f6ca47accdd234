@@ -1,7 +1,13 @@
 
-m
-java:S1192:"KDefine a constant instead of duplicating this literal "/contas/%s" 3 times.(¡Ñ·êÿÿÿÿÿ8÷¤û—¤.
-C
-java:S1948"'Make "conta" transient or serializable.(ˆÁ¡U8Ûƒù˜¥.
 [
-java:S1117@"9Rename "conta" which hides the field declared at line 26.(Ìé®µıÿÿÿÿ8÷¤û—¤.
+java:S1117?"9Rename "conta" which hides the field declared at line 26.(Ìé®µıÿÿÿÿ8÷¤û—¤.
+o
+java:S1128"RRemove this unused import 'org.jboss.resteasy.annotations.providers.jaxb.Wrapped'.(ÉšåÓ8æãÍø¨.
+m
+java:S11929"KDefine a constant instead of duplicating this literal "/contas/%s" 3 times.(¡Ñ·êÿÿÿÿÿ8÷¤û—¤.
+C
+java:S1948"'Make "conta" transient or serializable.(ˆÁ¡U8¬£× ª.
+N
+java:S1948",Make "repository" transient or serializable.(øø¶•üÿÿÿÿ8¬£× ª.
+K
+java:S1948 ")Make "service" transient or serializable.(°ìéöùÿÿÿÿ8¬£× ª.
